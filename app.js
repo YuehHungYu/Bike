@@ -1,3 +1,12 @@
+//Navigation
+const toggle=document.querySelector('.toggle');
+const navigation=document.querySelector('.navigation');
+toggle.onclick=function(){
+    toggle.classList.toggle('active');
+    navigation.classList.toggle('active');
+}
+
+//Slider
 const slides =document.querySelectorAll('.slides');
 const dots=document.querySelectorAll('.dot');
 function setActive(i){
